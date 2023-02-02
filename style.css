@@ -95,6 +95,7 @@ h1, h2, h3 {
 .btn {
   cursor: pointer;
   margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
   width: 100px;
   height: 50px;
   font-size: 15px;
