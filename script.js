@@ -122,7 +122,7 @@ function finishGame(){
 	}
 	setTimeout(function() {
 		newGame();
-	}, (3000));
+	}, (2500));
 	
 }	
 	
