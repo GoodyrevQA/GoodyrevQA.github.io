@@ -8,4 +8,4 @@
 [![JavaScript](https://img.shields.io/badge/-JavaScript-24292f??style=for-the-badge&logo=JavaScript&logoColor=fff600)](https://github.com/GoodyrevQA/SnakeQA)
 
 - анимация прописана на CSS
-- модальные окна на JS
+- модальные окна и игра на JS
