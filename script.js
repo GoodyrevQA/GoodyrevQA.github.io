@@ -37,13 +37,13 @@ function draw(){
 //Перемещение змеи - этап 1 Обработка нажатия стрелок
 document.addEventListener("keydown", moveSnake);
 function moveSnake(event){
-	if(event.keyCode == 37 && snakeDirection != "право"){
+	if((event.keyCode === 37 || event.keyCode === 65) && snakeDirection != "право"){
 		snakeDirection = "лево";
-	} else if(event.keyCode == 38 && snakeDirection != "вниз"){
+	} else if(event.keyCode === 38 || event.keyCode === 87 && snakeDirection != "вниз"){
 		snakeDirection = "верх";
-	} else if(event.keyCode == 39 && snakeDirection != "лево"){
+	} else if(event.keyCode === 39 || event.keyCode === 68 && snakeDirection != "лево"){
 		snakeDirection = "право";
-	} else if(event.keyCode == 40 && snakeDirection != "верх"){
+	} else if(event.keyCode === 40 || event.keyCode === 83 && snakeDirection != "верх"){
 		snakeDirection = "вниз";
 	}
 }
