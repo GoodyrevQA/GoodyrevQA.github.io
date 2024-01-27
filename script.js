@@ -43,7 +43,9 @@ function moveSnake(event){
 		snakeDirection = "верх";
 	} else if(event.keyCode === 39 || event.keyCode === 68 && snakeDirection != "лево"){
 		snakeDirection = "право";
-	} 
+	} else if(event.keyCode === 40 || event.keyCode === 83 && snakeDirection != "верх"){
+		snakeDirection = "вниз";
+	}
 }
 //Перемещение змеи - этап 2 Меняем координаты змеи
 function moveSnakeStep2(){
